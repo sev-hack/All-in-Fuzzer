@@ -48,3 +48,29 @@ false
 "0e2"
 "0e0"
 "\"
+"something; SELECT pg_sleep(10) --"
+"something; SELECT pg_sleep(10);--"
+"something;SELECT(pg_sleep(10))--"
+"--+-"
+"--"
+"some_legal_value LIMIT 1 OFFSET 1) select pg_sleep(10)-- -"
+"something' or sleep(3)--" 
+"something)) AND sleep(3)--"
+"@"
+%0D%0A
+%c0%af
+%C2%85
+%C2%A0
+%E5%98%8A
+%E5%98%8D
+%E5%98%BC
+%E5%98%BE
+";"
+":"
+"@"
+"a@"
+"("
+")"
+"?"
+"?*"
+"%"
